@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p className="App-text">
-          Hi! I'm Karen!
+          Hi! I'm Karen! :)
         </p>
         <img src={gif} alt="my fav gif"></img>
         {/* <MyComponent myName='karen' /> */}
