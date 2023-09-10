@@ -1,23 +1,21 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import gif from './vibe-rabbit.gif'
+
+import MyComponent, { MyComponentProps } from './MyComponent';
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+        <p className="App-text">
+          Hi! I'm Karen!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={gif} alt="my fav gif"></img>
+        {/* <MyComponent myName='karen' /> */}
       </header>
     </div>
   );
